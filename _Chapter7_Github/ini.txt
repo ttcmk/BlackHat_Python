@@ -1,0 +1,26 @@
+
+1. 环境配置
+mkdir trojan
+cd trojan
+git init
+mkdir modules
+mkdir data
+mkdir config
+touch modules/ .gitignore
+touch config/ .gitignore
+touch data/ .gitignore
+git add .
+git commit -m "Adding repo structure for trojan"
+git remote add origin https://github.com/<yourusername>/chapter7.git
+git push origin master
+
+2. 编写完每个模块
+git add .
+git commit -m "Adding new modules"
+git push origin master
+username *****
+password *****
+
+3. 运行
+ A. python git_trojan.py
+ B. git pull origin master
